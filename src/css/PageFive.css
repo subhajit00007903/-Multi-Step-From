@@ -1,0 +1,64 @@
+.PageFive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items:  baseline;
+  }
+  
+  h1 {
+    font-size: 2em; /* Increase the font size */
+    text-align: center; /* Center the text */
+  }
+  
+  .stars {
+    font-size: 2em; 
+    color: yellow; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+  }
+  
+  .review {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  

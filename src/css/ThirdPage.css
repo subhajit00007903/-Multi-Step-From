@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    flex-direction: column; /* This will align the child elements (ThirdPage and buttonContainer) in a column */
+    min-height: 100vh; /* This will make sure the container takes at least the full height of the viewport */
+  }
+  
+  .ThirdPage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .ThirdPage img {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .ThirdPage h1 {
+    width: 30%;
+    text-align: left;
+    margin: 30px;
+    padding: 10px;
+  }
+  
+  .buttonContainer {
+    margin-top: auto; /* This will push the button container to the bottom */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+  }
+  
